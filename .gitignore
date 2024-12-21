@@ -1,0 +1,59 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Directory for compiled object files
+/obj/
+
+# Directory for compiled binaries
+/bin/
+
+# Dependency directories (remove the comment if you are using Go modules)
+# /vendor/
+
+# Go workspace file
+go.work
+
+# Environment variables file (if any)
+/.env
+
+# Logs
+logs/
+*.log
+
+# IDE and Editor directories and files
+
+# VS Code
+.vscode/
+
+# GoLand
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+
+# Other files to ignore
+*.tmp
+*.bak
+*.backup
